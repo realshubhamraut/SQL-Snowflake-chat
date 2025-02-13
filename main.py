@@ -108,7 +108,7 @@ if db_option == "Cloud Snowflake":
         from langchain_community.utilities import SQLDatabase
         snowflake_db = SQLDatabase.from_uri(uri)
         st.session_state.db = snowflake_db
-        st.success("Connected to Snowflake!")
+        st.success("Connected to Shubham's Snowflake!")
     except Exception as e:
         st.error(f"Snowflake connection error: {e}")
     # NOTE: We do NOT create an agent here since our Snowflake branch uses our sf_get_response functions.
