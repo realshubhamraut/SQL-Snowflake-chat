@@ -1,0 +1,15 @@
+streamlit
+watchdog
+pandas
+matplotlib
+SQLAlchemy
+psycopg2-binary
+snowflake-connector-python
+python-dotenv
+pydantic
+langgraph
+duckduckgo_search
+langchain
+langchain_community
+langchain_google_genai
+snowflake-sqlalchemy
