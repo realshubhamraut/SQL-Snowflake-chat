@@ -44,10 +44,11 @@ gradient_text_html = """
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
   font-size: 3em;
-  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  /* Replace the red gradient with a Snowflake-inspired bluish-white gradient */
+  background: linear-gradient(90deg, #29B5E8, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
   margin: 0;
   padding: 20px 0;
   text-align: center;
@@ -55,9 +56,11 @@ gradient_text_html = """
 </style>
 <div class="snowchat-title">SQL Snowflake Chat</div>
 """
-st.set_page_config(page_title="SQL Snowflake Chat", page_icon="🐘")
+
+st.set_page_config(page_title="SQL Snowflake Chat", page_icon="❄️")
 st.markdown(gradient_text_html, unsafe_allow_html=True)
 st.caption("Talk your way through data")
+
 
 # --- AI Model Selection (Google Gemini Only) ---
 model_options = {"Google Gemini": "Google Gemini"}
@@ -108,7 +111,7 @@ if db_option == "Cloud Snowflake":
         from langchain_community.utilities import SQLDatabase
         snowflake_db = SQLDatabase.from_uri(uri)
         st.session_state.db = snowflake_db
-        st.success("Connected to Shubham's Snowflake!")
+        st.success("Connected to Shubham's Snowflake Account!")
     except Exception as e:
         st.error(f"Snowflake connection error: {e}")
     # NOTE: We do NOT create an agent here since our Snowflake branch uses our sf_get_response functions.

@@ -1,19 +1,10 @@
 # ingest.py
-from typing import Any, Dict
-
+from typing import Any, Dict, List
 import streamlit as st
 from langchain.document_loaders import DirectoryLoader
-from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain_community.embeddings import FakeEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.vectorstores import SupabaseVectorStore
 from pydantic import BaseModel
-
-from supabase.client import Client, create_client
-
-class Secrets(BaseModel):
-    SUPABASE_URL: str
-    SUPABASE_SERVICE_KEY: str
-    OPENAI_API_KEY: str
 
 class Config(BaseModel):
     chunk_size: int = 1000
@@ -22,26 +13,22 @@ class Config(BaseModel):
     docs_glob: str = "**/*.md"
 
 class DocumentProcessor:
-    def __init__(self, secrets: Secrets, config: Config):
-        self.client: Client = create_client(secrets.SUPABASE_URL, secrets.SUPABASE_SERVICE_KEY)
+    def __init__(self, config: Config):
         self.loader = DirectoryLoader(config.docs_dir, glob=config.docs_glob)
-        self.text_splitter = CharacterTextSplitter(chunk_size=config.chunk_size, chunk_overlap=config.chunk_overlap)
-        self.embeddings = OpenAIEmbeddings(openai_api_key=secrets.OPENAI_API_KEY)
-
-    def process(self) -> Dict[str, Any]:
+        self.text_splitter = CharacterTextSplitter(
+            chunk_size=config.chunk_size, chunk_overlap=config.chunk_overlap
+        )
+        self.embeddings = FakeEmbeddings(size=768)
+    
+    def process(self) -> List[Any]:
         data = self.loader.load()
         texts = self.text_splitter.split_documents(data)
-        vector_store = SupabaseVectorStore.from_documents(texts, self.embeddings, client=self.client)
-        return vector_store
+        # Optionally, you can use self.embeddings.embed_documents(texts) to embed them.
+        return texts
 
-def run():
-    secrets = Secrets(
-        SUPABASE_URL=st.secrets["SUPABASE_URL"],
-        SUPABASE_SERVICE_KEY=st.secrets["SUPABASE_SERVICE_KEY"],
-        OPENAI_API_KEY=st.secrets["OPENAI_API_KEY"],
-    )
+def run() -> List[Any]:
     config = Config()
-    doc_processor = DocumentProcessor(secrets, config)
+    doc_processor = DocumentProcessor(config)
     result = doc_processor.process()
     return result
 
