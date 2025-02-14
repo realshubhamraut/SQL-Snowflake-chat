@@ -1,28 +1,31 @@
-# SQL-Snowflake-chat ❄️ 
+# SQL-Snowflake-chat ❄️  
 #### also with local postgres 🐘
 
+<div style="display: flex; gap: 10px;">
+  <a href="https://streamlit.io/">
+    <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
+  </a>
+  <a href="https://gemini.google.com/">
+    <img src="https://img.shields.io/badge/-Gemini-412991?style=flat-square&logo=google-gemini&logoColor=white" alt="Gemini">
+  </a>
+  <a href="https://www.postgresql.org/">
+    <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  </a>
+  <a href="https://www.snowflake.com/en/">
+    <img src="https://img.shields.io/badge/-Snowflake-29BFFF?style=flat-square&logo=snowflake&logoColor=white" alt="Snowflake">
+  </a>
+  <a href="https://www.langchain.com/">
+    <img src="https://img.shields.io/badge/-Langchain-gray?style=flat-square" alt="Langchain">
+  </a>
+  <a href="https://chat-sql-in-natural-language.streamlit.app/">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">
+  </a>
+</div>
 
-
-[![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io/)
-
-[![Gemini](https://img.shields.io/badge/-Gemini-412991?style=flat-square&logo=google-gemini&logoColor=white)](https://gemini.google.com/)
-
-[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-
-
-
-[![Snowflake](https://img.shields.io/badge/-Snowflake-29BFFF?style=flat-square&logo=snowflake&logoColor=white)](https://www.snowflake.com/en/)
-
-
-[![Langchain](https://img.shields.io/badge/-Langchain-gray?style=flat-square)](https://www.langchain.com/)
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chat-sql-in-natural-language.streamlit.app/)
-
-
+---
 **SQL-Snowflake-chat** is a user-friendly application that lets you interact with your Snowflake and local PostgreSQL data using natural language queries. Simply type your questions, and SQL-Snowflake-chat will generate the SQL query and return the data you need. It eliminates the need for complex SQL queries and makes data access easy. Enjoy real‑time data retrieval, interactive visualizations, and a sleek dark-themed UI—all through a conversational interface.
 
 ## Supported LLM's
-
 
 - Gemini Flash 2.0
 - Deepseek R1
@@ -41,7 +44,7 @@
   SQLAlchemy, psycopg2-binary, snowflake-connector-python, snowflake-sqlalchemy
 
 - **LLM & Query Generation:**  
-  Google Gemini via `langchain_google_genai`
+  Google Gemini via `langchain_google_genai`, langhchain, langgraph (for developing SQL specific agentic AI)
 
 
 
@@ -65,11 +68,11 @@
    ```
 
 2. Install the required packages:
-   ```cd SQL-Snowflake-chat```
 
-   ```pip install -r requirements.txt```
-
-   ---
+   ```bash
+   pip install -r requirements.txt
+   ```
+---
 
 
 3. Set up your `GEMINI_API`, `ACCOUNT`, `USER_NAME`, `PASSWORD`, `ROLE`, `DATABASE`, `SCHEMA`, `WAREHOUSE`,`CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_NAMESPACE_ID`,
