@@ -1,5 +1,5 @@
 # SQL-Snowflake-chat ❄️  
-#### also with local postgres 🐘
+#### and also with local postgres 🐘
 
 <div style="display: flex; gap: 10px;">
   <a href="https://streamlit.io/">
