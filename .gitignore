@@ -1,5 +1,4 @@
-secrets.toml
-.streamlit
-.env
 venv/
 .DS_Store
+.streamlit/secrets.toml
+secrets.toml
