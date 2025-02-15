@@ -30,7 +30,7 @@ snow_ddl = Snowddl()
 
 # --- Initialize Essential Session State Keys ---
 if "model" not in st.session_state:
-    st.session_state["model"] = "Google Gemini"
+    st.session_state["model"] = "Gemini Flash 2.0"
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "Hello! I'm your SQL assistant. Ask me anything about your database."}]
 if "db" not in st.session_state:
@@ -61,9 +61,12 @@ st.set_page_config(page_title="SQL Snowflake Chat", page_icon="❄️")
 st.markdown(gradient_text_html, unsafe_allow_html=True)
 st.caption("Talk your way through data")
 
-
-# --- AI Model Selection (Google Gemini Only) ---
-model_options = {"Google Gemini": "Google Gemini"}
+# --- AI Model Selection ---
+model_options = {
+    "Gemini Flash 2.0": "Google Gemini",
+    "Deepseek R1": "Deepseek R1",
+    "GPT-4o": "GPT-4o"
+}
 selected_model = st.radio(
     "Choose your AI Model:",
     options=list(model_options.keys()),
@@ -111,10 +114,12 @@ if db_option == "Cloud Snowflake":
         from langchain_community.utilities import SQLDatabase
         snowflake_db = SQLDatabase.from_uri(uri)
         st.session_state.db = snowflake_db
-        st.success("Connected to Shubham's Snowflake Account!")
+        if st.session_state["model"] != "Gemini Flash 2.0":
+            st.error("please use the Google Gemini model, the selected model has reached the credit limit")
+        else:
+            st.success("Connected to Shubham's Snowflake Account!")
     except Exception as e:
         st.error(f"Snowflake connection error: {e}")
-    # NOTE: We do NOT create an agent here since our Snowflake branch uses our sf_get_response functions.
     
 # ----- Local PostgreSQL Branch -----
 else:
