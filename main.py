@@ -117,6 +117,7 @@ if db_option == "Cloud Snowflake":
     st.sidebar.markdown(open("ui/sidebar.md").read())
     selected_table = st.sidebar.selectbox("Select a table:", options=list(snow_ddl.ddl_dict.keys()))
     st.sidebar.markdown(f"### DDL for {selected_table} table")
+    st.sidebar.text('for user reference only (no need for sql-chat)')
     st.sidebar.code(snow_ddl.ddl_dict[selected_table], language="sql")
     if st.sidebar.button("Reset Chat"):
         for key in list(st.session_state.keys()):
