@@ -147,11 +147,13 @@ if db_option == "Cloud Snowflake":
     
 # ----- Local PostgreSQL Branch -----
 else:
-    st.sidebar.subheader("Local PostgreSQL Settings")
     st.sidebar.write("Connect to your local PostgreSQL database:")
+    st.sidebar.write("---")
+    st.sidebar.write("to use Local PostgreSQL you need to use the local version of this app by cloning repository")
+    st.sidebar.subheader("Local PostgreSQL Settings")
     pg_host = st.sidebar.text_input("Host", value="localhost", key="pg_host")
     pg_port = st.sidebar.text_input("Port", value="5432", key="pg_port")
-    pg_user = st.sidebar.text_input("User", value="proxim", key="pg_user")
+    pg_user = st.sidebar.text_input("User", value="", key="pg_user")
     pg_database = st.sidebar.text_input("Database", value="store_sales", key="pg_database")
     if st.sidebar.button("Connect to PostgreSQL"):
         try:
