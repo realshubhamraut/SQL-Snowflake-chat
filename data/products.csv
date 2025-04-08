@@ -1,4 +1,5 @@
-PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
+product_id,product_name,category,price
+357,Sketchbook,Books,80.53
 1,Wireless Earbuds,Electronics,561.54
 2,Dash Cam,Automotive,568.53
 3,Air Freshener,Automotive,575.31
@@ -7,7 +8,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 6,Educational Toy,Toys,14.84
 7,Perfume,Beauty,50.73
 8,Card Game,Toys,35.58
-9,Book Cover,Books,57.7
+9,Book Cover,Books,57.70
 10,Air Purifier,Home & Kitchen,94.27
 11,Vacuum Cleaner,Home & Kitchen,444.64
 12,Action Figure,Toys,98.12
@@ -43,18 +44,18 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 42,Scarf,Clothing,17.94
 43,T-Shirt,Clothing,37.21
 44,Train Set,Toys,61.34
-45,Garment Steamer,Clothing,151.0
+45,Garment Steamer,Clothing,151.00
 46,Hair Serum,Beauty,119.97
 47,Tablet Case,Electronics,648.45
 48,First Aid Kit,Automotive,253.04
 49,Jump Starter,Automotive,765.82
-50,Car Wash Kit,Automotive,592.4
+50,Car Wash Kit,Automotive,592.40
 51,Car Phone Mount,Automotive,50.57
 52,Laptop Stand,Electronics,432.81
 53,Puzzle Set,Toys,82.55
 54,Belt,Clothing,54.91
 55,Play Kitchen,Toys,25.02
-56,Shampoo,Beauty,133.4
+56,Shampoo,Beauty,133.40
 57,Tennis Racket,Sports,359.44
 58,Bluetooth Speaker,Electronics,658.67
 59,Bath Towel,Home & Kitchen,454.13
@@ -68,14 +69,14 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 67,Travel Bag,Clothing,48.94
 68,Moisturizer,Beauty,42.62
 69,Shoe Rack,Clothing,156.28
-70,Face Cream,Beauty,168.2
+70,Face Cream,Beauty,168.20
 71,Socks,Clothing,188.05
-72,Mixing Bowl,Home & Kitchen,90.7
+72,Mixing Bowl,Home & Kitchen,90.70
 73,Lipstick,Beauty,126.65
 74,Watch,Clothing,128.43
 75,Basketball,Sports,139.22
 76,Trash Can,Home & Kitchen,255.17
-77,Coin Purse,Clothing,114.7
+77,Coin Purse,Clothing,114.70
 78,Hair Tie,Clothing,134.36
 79,Backpack,Clothing,168.53
 80,Jewelry Box,Clothing,188.04
@@ -87,14 +88,14 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 86,Food Processor,Home & Kitchen,424.74
 87,Coffee Maker,Home & Kitchen,494.71
 88,Blender,Home & Kitchen,426.82
-89,Umbrella,Clothing,124.7
+89,Umbrella,Clothing,124.70
 90,Power Bank,Electronics,205.86
 91,Eye Shadow Palette,Beauty,154.74
 92,Science Kit,Toys,69.38
 93,Flying Drone,Toys,24.04
 94,Nail Polish,Beauty,174.29
-95,Play Dough,Toys,34.0
-96,Running Shoes,Sports,278.5
+95,Play Dough,Toys,34.00
+96,Running Shoes,Sports,278.50
 97,Sunscreen,Beauty,166.55
 98,External Hard Drive,Electronics,960.06
 99,Air Compressor,Automotive,757.03
@@ -106,7 +107,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 105,Dish Rack,Home & Kitchen,357.28
 106,Wallet,Clothing,179.51
 107,Garment Steamer,Clothing,199.27
-108,Mixing Bowl,Home & Kitchen,176.0
+108,Mixing Bowl,Home & Kitchen,176.00
 109,Tennis Racket,Sports,28.49
 110,Bath Towel,Home & Kitchen,55.29
 111,Exercise Ball,Sports,410.63
@@ -120,14 +121,14 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 119,Dumbbells,Sports,61.45
 120,Reading Light,Books,49.76
 121,Phone Charger,Electronics,387.68
-122,Gaming Mouse,Electronics,263.8
+122,Gaming Mouse,Electronics,263.80
 123,Air Compressor,Automotive,793.11
 124,Sunscreen,Beauty,114.46
 125,Sunglasses,Clothing,64.38
 126,Robot Kit,Toys,88.41
 127,Fitness Tracker,Sports,487.46
 128,Soccer Ball,Sports,171.67
-129,Monitor,Electronics,686.7
+129,Monitor,Electronics,686.70
 130,Storage Container,Home & Kitchen,391.93
 131,Tire Pressure Gauge,Automotive,362.83
 132,Rice Cooker,Home & Kitchen,138.22
@@ -153,7 +154,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 152,Dish Rack,Home & Kitchen,224.79
 153,Tie Holder,Clothing,147.85
 154,Dash Cam,Automotive,254.91
-155,Filing Cabinet,Books,39.4
+155,Filing Cabinet,Books,39.40
 156,LED Light Strip,Electronics,732.72
 157,Mascara,Beauty,119.03
 158,Knife Set,Home & Kitchen,161.19
@@ -173,7 +174,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 172,Dress Hanger,Clothing,128.95
 173,Jewelry Box,Clothing,198.23
 174,Remote Car,Toys,71.94
-175,Humidifier,Home & Kitchen,24.8
+175,Humidifier,Home & Kitchen,24.80
 176,Bluetooth Speaker,Electronics,104.85
 177,Kitchen Scale,Home & Kitchen,362.58
 178,Conditioner,Beauty,70.94
@@ -187,7 +188,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 186,Hair Dryer,Beauty,146.98
 187,Tablet Case,Electronics,461.88
 188,Building Set,Toys,41.25
-189,Trash Can,Home & Kitchen,109.0
+189,Trash Can,Home & Kitchen,109.00
 190,Hat,Clothing,167.96
 191,Facial Cleanser,Beauty,194.31
 192,Desk Organizer,Books,42.09
@@ -200,14 +201,14 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 199,Mini Projector,Electronics,71.62
 200,Play Kitchen,Toys,5.98
 201,Vacuum Cleaner,Home & Kitchen,208.21
-202,Magic Kit,Toys,50.8
+202,Magic Kit,Toys,50.80
 203,Garment Steamer,Clothing,108.39
 204,Travel Bag,Clothing,36.03
 205,Scarf,Clothing,89.82
 206,Bath Towel,Home & Kitchen,51.74
 207,External Hard Drive,Electronics,993.74
 208,Doll House,Toys,63.52
-209,Oil Filter,Automotive,260.2
+209,Oil Filter,Automotive,260.20
 210,Paper Towel Holder,Home & Kitchen,157.99
 211,Plush Toy,Toys,66.64
 212,Wallet,Clothing,192.77
@@ -236,7 +237,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 235,Gloves,Clothing,118.42
 236,Book Ends,Books,80.88
 237,LED Headlights,Automotive,848.61
-238,Socks,Clothing,44.4
+238,Socks,Clothing,44.40
 239,Remote Car,Toys,53.43
 240,Jewelry Box,Clothing,84.59
 241,Conditioner,Beauty,52.52
@@ -252,8 +253,8 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 251,Weight Bench,Sports,479.76
 252,Hair Tie,Clothing,156.62
 253,Fitness Tracker,Sports,433.31
-254,Science Kit,Toys,89.4
-255,Hair Straightener,Beauty,188.4
+254,Science Kit,Toys,89.40
+255,Hair Straightener,Beauty,188.40
 256,Tablet Case,Electronics,167.58
 257,Throw Pillow,Home & Kitchen,438.27
 258,Coffee Maker,Home & Kitchen,378.54
@@ -270,7 +271,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 269,Sunscreen,Beauty,122.03
 270,Jewelry Box,Clothing,46.05
 271,Cycling Gloves,Sports,77.45
-272,Planner,Books,93.3
+272,Planner,Books,93.30
 273,Jump Rope,Sports,436.43
 274,Desk Lamp,Electronics,52.01
 275,Knee Brace,Sports,364.06
@@ -281,20 +282,20 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 280,Camping Tent,Sports,23.91
 281,Trash Can,Home & Kitchen,47.93
 282,Sunscreen,Beauty,56.27
-283,Travel Bag,Clothing,171.4
+283,Travel Bag,Clothing,171.40
 284,Conditioner,Beauty,51.68
 285,Fitness Tracker,Sports,136.26
 286,Security Camera,Electronics,317.77
-287,Umbrella,Clothing,142.2
+287,Umbrella,Clothing,142.20
 288,Bluetooth Speaker,Electronics,991.76
 289,Blender,Home & Kitchen,184.01
 290,Tie Holder,Clothing,60.51
 291,Coin Purse,Clothing,79.24
 292,Reading Glasses,Books,17.67
 293,Shampoo,Beauty,14.86
-294,Bath Towel,Home & Kitchen,92.9
+294,Bath Towel,Home & Kitchen,92.90
 295,Hair Serum,Beauty,99.76
-296,Magic Kit,Toys,66.9
+296,Magic Kit,Toys,66.90
 297,LED Headlights,Automotive,623.39
 298,Vacuum Cleaner,Home & Kitchen,225.33
 299,Hat,Clothing,159.88
@@ -306,8 +307,8 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 305,USB Hub,Electronics,55.81
 306,Golf Gloves,Sports,75.89
 307,Educational Toy,Toys,64.43
-308,Battery Charger,Automotive,762.9
-309,Kitchen Scale,Home & Kitchen,270.7
+308,Battery Charger,Automotive,762.90
+309,Kitchen Scale,Home & Kitchen,270.70
 310,Cookware Set,Home & Kitchen,390.18
 311,Socks,Clothing,139.91
 312,Play Dough,Toys,87.33
@@ -332,14 +333,14 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 331,Swimming Goggles,Sports,280.43
 332,Monitor,Electronics,611.81
 333,Tablet Case,Electronics,350.43
-334,T-Shirt,Clothing,137.7
+334,T-Shirt,Clothing,137.70
 335,Dress Hanger,Clothing,44.81
 336,Water Bottle,Sports,221.58
 337,Knife Set,Home & Kitchen,191.88
 338,Phone Charger,Electronics,952.54
 339,Mini Projector,Electronics,401.88
 340,Touch Up Paint,Automotive,633.37
-341,Belt,Clothing,23.5
+341,Belt,Clothing,23.50
 342,Windshield Wipers,Automotive,497.64
 343,LED Light Strip,Electronics,107.87
 344,Card Game,Toys,50.81
@@ -355,8 +356,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 354,Lipstick,Beauty,178.69
 355,Car Wash Kit,Automotive,71.39
 356,Skateboard,Sports,276.23
-357,Sketchbook,Books,80.53
-358,Watch,Clothing,49.8
+358,Watch,Clothing,49.80
 359,Yoga Mat,Sports,72.98
 360,Digital Clock,Electronics,149.52
 361,Gloves,Clothing,45.56
@@ -386,7 +386,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 385,Tablet Case,Electronics,170.41
 386,Perfume,Beauty,48.21
 387,External Hard Drive,Electronics,528.21
-388,Sunglasses,Clothing,185.6
+388,Sunglasses,Clothing,185.60
 389,Nail Polish,Beauty,171.65
 390,Page Markers,Books,85.53
 391,Camping Tent,Sports,91.28
@@ -398,8 +398,8 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 397,Water Bottle,Sports,292.35
 398,Book Cover,Books,21.79
 399,Shoe Rack,Clothing,134.61
-400,Windshield Wipers,Automotive,238.3
-401,Tie Holder,Clothing,161.7
+400,Windshield Wipers,Automotive,238.30
+401,Tie Holder,Clothing,161.70
 402,Resistance Bands,Sports,341.87
 403,Coin Purse,Clothing,30.47
 404,Basketball,Sports,325.48
@@ -407,10 +407,10 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 406,Gloves,Clothing,128.08
 407,Wireless Earbuds,Electronics,453.58
 408,Wi-Fi Router,Electronics,141.91
-409,Hiking Backpack,Sports,335.1
-410,Swimming Goggles,Sports,146.6
+409,Hiking Backpack,Sports,335.10
+410,Swimming Goggles,Sports,146.60
 411,Notebook,Books,65.94
-412,Watch,Clothing,133.8
+412,Watch,Clothing,133.80
 413,Battery Charger,Automotive,500.93
 414,Webcam,Electronics,531.74
 415,Monitor,Electronics,862.58
@@ -427,19 +427,19 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 426,Planner,Books,93.98
 427,Trash Can,Home & Kitchen,237.46
 428,Hand Cream,Beauty,40.91
-429,Face Cream,Beauty,162.8
+429,Face Cream,Beauty,162.80
 430,Conditioner,Beauty,119.05
 431,Cutting Board,Home & Kitchen,318.59
 432,Car Charger,Automotive,998.26
 433,Keyboard,Electronics,352.48
-434,Throw Pillow,Home & Kitchen,245.9
+434,Throw Pillow,Home & Kitchen,245.90
 435,Shampoo,Beauty,105.26
 436,Kitchen Scale,Home & Kitchen,319.15
 437,Phone Charger,Electronics,652.47
 438,Board Game,Toys,54.65
-439,Cookware Set,Home & Kitchen,430.0
-440,Tennis Racket,Sports,244.3
-441,Bluetooth Speaker,Electronics,490.3
+439,Cookware Set,Home & Kitchen,430.00
+440,Tennis Racket,Sports,244.30
+441,Bluetooth Speaker,Electronics,490.30
 442,Mascara,Beauty,115.21
 443,Exercise Ball,Sports,229.91
 444,Journal,Books,35.08
@@ -461,7 +461,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 460,Rice Cooker,Home & Kitchen,119.12
 461,Hair Straightener,Beauty,62.54
 462,Reading Light,Books,30.96
-463,Book Stand,Books,31.3
+463,Book Stand,Books,31.30
 464,Storage Container,Home & Kitchen,353.01
 465,Hat,Clothing,58.85
 466,Belt,Clothing,137.75
@@ -475,7 +475,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 474,Moisturizer,Beauty,18.11
 475,Foundation,Beauty,29.81
 476,Gaming Mouse,Electronics,383.78
-477,Floor Mats,Automotive,904.1
+477,Floor Mats,Automotive,904.10
 478,Power Bank,Electronics,896.35
 479,Jump Rope,Sports,473.48
 480,Calendar,Books,38.61
@@ -483,18 +483,18 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 482,Dress Hanger,Clothing,154.63
 483,Garment Steamer,Clothing,54.01
 484,Hair Serum,Beauty,23.21
-485,Face Scrub,Beauty,171.4
+485,Face Scrub,Beauty,171.40
 486,Skateboard,Sports,394.62
 487,Yoga Mat,Sports,438.06
 488,Doll House,Toys,54.17
-489,Backpack,Clothing,130.0
+489,Backpack,Clothing,130.00
 490,Weight Bench,Sports,61.45
 491,Drawing Tablet,Toys,88.68
 492,Scarf,Clothing,191.04
 493,Security Camera,Electronics,527.78
 494,T-Shirt,Clothing,135.92
 495,Dictionary Stand,Books,77.46
-496,Tie Holder,Clothing,28.4
+496,Tie Holder,Clothing,28.40
 497,Paper Towel Holder,Home & Kitchen,22.24
 498,Water Bottle,Sports,165.77
 499,Tablet Case,Electronics,123.35
@@ -508,11 +508,11 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 507,Rice Cooker,Home & Kitchen,377.09
 508,Air Purifier,Home & Kitchen,104.97
 509,Hat,Clothing,166.91
-510,Cookware Set,Home & Kitchen,24.9
+510,Cookware Set,Home & Kitchen,24.90
 511,Foundation,Beauty,197.27
 512,Wallet,Clothing,54.66
 513,T-Shirt,Clothing,83.18
-514,Gym Bag,Sports,110.9
+514,Gym Bag,Sports,110.90
 515,Calendar,Books,62.69
 516,Backpack,Clothing,29.17
 517,Coin Purse,Clothing,148.74
@@ -524,11 +524,11 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 523,Camping Tent,Sports,188.95
 524,Sunscreen,Beauty,150.26
 525,Page Markers,Books,92.26
-526,Bath Towel,Home & Kitchen,279.8
+526,Bath Towel,Home & Kitchen,279.80
 527,Drawing Tablet,Toys,31.75
 528,Photo Album,Books,55.27
 529,Plush Toy,Toys,30.29
-530,Educational Toy,Toys,15.6
+530,Educational Toy,Toys,15.60
 531,Humidifier,Home & Kitchen,421.74
 532,Tennis Racket,Sports,340.17
 533,LED Light Strip,Electronics,871.83
@@ -536,15 +536,15 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 535,Hair Serum,Beauty,190.85
 536,Travel Bag,Clothing,104.33
 537,Hair Dryer,Beauty,165.51
-538,Tool Kit,Automotive,830.9
-539,Makeup Brush Set,Beauty,99.4
+538,Tool Kit,Automotive,830.90
+539,Makeup Brush Set,Beauty,99.40
 540,Conditioner,Beauty,125.76
 541,Building Blocks,Toys,19.51
 542,Face Cream,Beauty,151.77
 543,Power Bank,Electronics,977.28
 544,Face Scrub,Beauty,137.18
 545,Floor Mats,Automotive,60.28
-546,Yoga Mat,Sports,113.5
+546,Yoga Mat,Sports,113.50
 547,Laptop Stand,Electronics,161.38
 548,Gloves,Clothing,186.76
 549,Art Set,Toys,27.73
@@ -557,12 +557,12 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 556,Wi-Fi Router,Electronics,238.49
 557,Cutting Board,Home & Kitchen,416.95
 558,Smart Watch,Electronics,209.25
-559,Doll House,Toys,72.3
+559,Doll House,Toys,72.30
 560,Knife Set,Home & Kitchen,196.29
 561,Wireless Earbuds,Electronics,632.56
 562,Golf Gloves,Sports,358.12
 563,Food Processor,Home & Kitchen,415.23
-564,Jewelry Box,Clothing,150.2
+564,Jewelry Box,Clothing,150.20
 565,Face Mask,Beauty,71.66
 566,Dress Hanger,Clothing,74.87
 567,Hiking Backpack,Sports,47.48
@@ -576,7 +576,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 575,Shoe Horn,Clothing,139.35
 576,Eye Shadow Palette,Beauty,123.63
 577,Shoe Rack,Clothing,105.09
-578,Play Dough,Toys,34.3
+578,Play Dough,Toys,34.30
 579,Fitness Tracker,Sports,411.46
 580,External Hard Drive,Electronics,635.85
 581,Facial Cleanser,Beauty,138.32
@@ -584,12 +584,12 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 583,Vacuum Cleaner,Home & Kitchen,482.14
 584,Body Lotion,Beauty,56.85
 585,Moisturizer,Beauty,30.98
-586,Garment Steamer,Clothing,169.4
+586,Garment Steamer,Clothing,169.40
 587,Hair Straightener,Beauty,155.26
-588,Shoe Rack,Clothing,165.1
+588,Shoe Rack,Clothing,165.10
 589,Webcam,Electronics,305.25
 590,Tablet Case,Electronics,514.73
-591,Desk Lamp,Electronics,71.6
+591,Desk Lamp,Electronics,71.60
 592,Tire Pressure Gauge,Automotive,404.65
 593,Magic Kit,Toys,90.26
 594,Skateboard,Sports,53.99
@@ -599,7 +599,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 598,Car Phone Mount,Automotive,579.22
 599,Coin Purse,Clothing,30.14
 600,Wireless Earbuds,Electronics,443.15
-601,Calendar,Books,86.1
+601,Calendar,Books,86.10
 602,Eye Shadow Palette,Beauty,27.46
 603,Educational Toy,Toys,14.22
 604,Toaster,Home & Kitchen,228.94
@@ -610,7 +610,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 609,Jewelry Box,Clothing,148.43
 610,Coloring Book,Books,29.05
 611,Travel Bag,Clothing,168.32
-612,Basketball,Sports,116.9
+612,Basketball,Sports,116.90
 613,Coffee Maker,Home & Kitchen,468.09
 614,Phone Charger,Electronics,123.08
 615,Art Set,Toys,91.41
@@ -618,7 +618,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 617,Knife Set,Home & Kitchen,229.94
 618,Sunglasses,Clothing,137.39
 619,Desk Organizer,Books,76.58
-620,Belt,Clothing,83.1
+620,Belt,Clothing,83.10
 621,Laptop Stand,Electronics,807.92
 622,Paper Towel Holder,Home & Kitchen,221.11
 623,Tie Holder,Clothing,183.62
@@ -627,7 +627,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 626,Nail Polish,Beauty,110.41
 627,Filing Cabinet,Books,12.06
 628,Bookmark Set,Books,77.66
-629,Drawing Tablet,Toys,55.7
+629,Drawing Tablet,Toys,55.70
 630,Humidifier,Home & Kitchen,303.88
 631,Page Markers,Books,39.29
 632,Air Purifier,Home & Kitchen,372.47
@@ -635,7 +635,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 634,Bluetooth Speaker,Electronics,554.21
 635,Sunscreen,Beauty,29.91
 636,Exercise Ball,Sports,100.79
-637,Dish Rack,Home & Kitchen,301.8
+637,Dish Rack,Home & Kitchen,301.80
 638,Socks,Clothing,136.22
 639,Blender,Home & Kitchen,334.52
 640,Reading Glasses,Books,78.75
@@ -664,10 +664,10 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 663,T-Shirt,Clothing,88.38
 664,Gaming Mouse,Electronics,618.24
 665,Fitness Tracker,Sports,473.54
-666,Perfume,Beauty,137.9
+666,Perfume,Beauty,137.90
 667,USB Hub,Electronics,572.56
 668,Wi-Fi Router,Electronics,58.39
-669,Jump Starter,Automotive,265.6
+669,Jump Starter,Automotive,265.60
 670,Face Cream,Beauty,98.91
 671,Hair Straightener,Beauty,181.42
 672,LED Light Strip,Electronics,484.86
@@ -691,7 +691,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 690,Scarf,Clothing,171.98
 691,Power Bank,Electronics,707.08
 692,Science Kit,Toys,72.46
-693,Body Lotion,Beauty,69.3
+693,Body Lotion,Beauty,69.30
 694,Bath Towel,Home & Kitchen,23.22
 695,Air Compressor,Automotive,875.61
 696,Magazine Holder,Books,46.21
@@ -710,7 +710,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 709,Touch Up Paint,Automotive,136.89
 710,Hair Serum,Beauty,163.37
 711,Vacuum Cleaner,Home & Kitchen,87.75
-712,Security Camera,Electronics,701.0
+712,Security Camera,Electronics,701.00
 713,Cookware Set,Home & Kitchen,93.75
 714,Cookware Set,Home & Kitchen,35.97
 715,Toaster,Home & Kitchen,280.87
@@ -735,8 +735,8 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 734,External Hard Drive,Electronics,620.55
 735,T-Shirt,Clothing,102.86
 736,First Aid Kit,Automotive,992.47
-737,Dress Hanger,Clothing,79.5
-738,Educational Toy,Toys,19.1
+737,Dress Hanger,Clothing,79.50
+738,Educational Toy,Toys,19.10
 739,Dash Cam,Automotive,620.67
 740,Sketchbook,Books,74.88
 741,Shower Curtain,Home & Kitchen,376.92
@@ -749,17 +749,17 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 748,Wireless Earbuds,Electronics,125.34
 749,Magazine Holder,Books,13.75
 750,Moisturizer,Beauty,37.62
-751,Notebook,Books,92.9
+751,Notebook,Books,92.90
 752,Touch Up Paint,Automotive,194.34
 753,Car Charger,Automotive,476.65
 754,Face Cream,Beauty,139.97
-755,Hair Dryer,Beauty,145.6
+755,Hair Dryer,Beauty,145.60
 756,Makeup Brush Set,Beauty,144.32
-757,Tire Pressure Gauge,Automotive,170.4
+757,Tire Pressure Gauge,Automotive,170.40
 758,Sunscreen,Beauty,38.52
 759,Backpack,Clothing,193.21
 760,Journal,Books,70.85
-761,Monitor,Electronics,58.2
+761,Monitor,Electronics,58.20
 762,Vacuum Cleaner,Home & Kitchen,70.12
 763,Trash Can,Home & Kitchen,190.39
 764,LED Headlights,Automotive,500.42
@@ -771,11 +771,11 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 770,Keyboard,Electronics,698.76
 771,Rice Cooker,Home & Kitchen,195.39
 772,Page Markers,Books,70.77
-773,Mini Projector,Electronics,176.9
+773,Mini Projector,Electronics,176.90
 774,Wallet,Clothing,139.75
 775,Doll House,Toys,68.63
 776,Jewelry Box,Clothing,137.52
-777,Soccer Ball,Sports,379.6
+777,Soccer Ball,Sports,379.60
 778,Photo Album,Books,73.75
 779,Bookmark Set,Books,53.41
 780,Shoe Rack,Clothing,122.49
@@ -789,18 +789,18 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 788,Socks,Clothing,51.25
 789,Knee Brace,Sports,235.24
 790,Tie Holder,Clothing,15.63
-791,Cycling Gloves,Sports,324.9
+791,Cycling Gloves,Sports,324.90
 792,Book Cover,Books,17.56
 793,Drawing Tablet,Toys,20.62
 794,Umbrella,Clothing,41.11
 795,Car Cover,Automotive,761.95
 796,Train Set,Toys,37.55
 797,Golf Gloves,Sports,239.64
-798,Digital Clock,Electronics,157.7
+798,Digital Clock,Electronics,157.70
 799,Garment Steamer,Clothing,98.94
 800,Jump Rope,Sports,480.72
 801,Throw Pillow,Home & Kitchen,494.14
-802,Dumbbells,Sports,302.8
+802,Dumbbells,Sports,302.80
 803,LED Light Strip,Electronics,445.88
 804,Running Shoes,Sports,377.03
 805,Shampoo,Beauty,123.75
@@ -809,11 +809,11 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 808,Kitchen Scale,Home & Kitchen,29.62
 809,Nail Polish,Beauty,19.46
 810,Dish Rack,Home & Kitchen,173.18
-811,Board Game,Toys,96.8
+811,Board Game,Toys,96.80
 812,Yoga Mat,Sports,122.44
 813,Desk Lamp,Electronics,328.16
 814,Conditioner,Beauty,174.82
-815,Shoe Horn,Clothing,174.6
+815,Shoe Horn,Clothing,174.60
 816,Water Bottle,Sports,263.73
 817,Belt,Clothing,173.58
 818,Face Mask,Beauty,82.12
@@ -824,7 +824,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 823,Hat,Clothing,110.95
 824,Sunglasses,Clothing,189.42
 825,Hair Straightener,Beauty,21.43
-826,Trash Can,Home & Kitchen,280.4
+826,Trash Can,Home & Kitchen,280.40
 827,Portable Fan,Electronics,659.94
 828,Storage Container,Home & Kitchen,486.25
 829,Mini Projector,Electronics,572.72
@@ -847,7 +847,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 846,Cookware Set,Home & Kitchen,139.55
 847,Face Scrub,Beauty,166.29
 848,Shoe Rack,Clothing,73.16
-849,Page Markers,Books,63.1
+849,Page Markers,Books,63.10
 850,Monitor,Electronics,259.17
 851,Water Bottle,Sports,117.62
 852,Shampoo,Beauty,182.58
@@ -856,7 +856,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 855,Hair Tie,Clothing,113.18
 856,Dress Hanger,Clothing,156.69
 857,Golf Gloves,Sports,408.68
-858,Mascara,Beauty,182.3
+858,Mascara,Beauty,182.30
 859,Watch,Clothing,42.05
 860,Shoe Horn,Clothing,42.38
 861,Scarf,Clothing,189.77
@@ -892,7 +892,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 891,T-Shirt,Clothing,179.24
 892,Travel Bag,Clothing,12.06
 893,Backpack,Clothing,199.25
-894,Kitchen Scale,Home & Kitchen,467.2
+894,Kitchen Scale,Home & Kitchen,467.20
 895,Art Set,Toys,8.83
 896,Jump Starter,Automotive,50.91
 897,Science Kit,Toys,56.45
@@ -902,7 +902,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 901,Yoga Mat,Sports,101.43
 902,Conditioner,Beauty,52.33
 903,Plush Toy,Toys,70.97
-904,Air Freshener,Automotive,411.7
+904,Air Freshener,Automotive,411.70
 905,Tennis Racket,Sports,384.85
 906,Coin Purse,Clothing,46.06
 907,Educational Toy,Toys,82.19
@@ -917,7 +917,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 916,Socks,Clothing,107.44
 917,Umbrella,Clothing,14.92
 918,Card Game,Toys,72.48
-919,Cutting Board,Home & Kitchen,204.7
+919,Cutting Board,Home & Kitchen,204.70
 920,Eye Shadow Palette,Beauty,12.05
 921,Phone Charger,Electronics,152.19
 922,Wireless Earbuds,Electronics,859.93
@@ -941,15 +941,15 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 940,Vacuum Cleaner,Home & Kitchen,47.46
 941,Running Shoes,Sports,194.19
 942,Moisturizer,Beauty,152.66
-943,Gym Bag,Sports,52.1
+943,Gym Bag,Sports,52.10
 944,Board Game,Toys,9.68
 945,Keyboard,Electronics,833.85
-946,Portable Fan,Electronics,71.3
+946,Portable Fan,Electronics,71.30
 947,Photo Album,Books,6.86
-948,Storage Container,Home & Kitchen,192.8
+948,Storage Container,Home & Kitchen,192.80
 949,Touch Up Paint,Automotive,672.24
 950,Face Cream,Beauty,11.45
-951,Wireless Earbuds,Electronics,594.6
+951,Wireless Earbuds,Electronics,594.60
 952,Coffee Maker,Home & Kitchen,79.03
 953,External Hard Drive,Electronics,653.07
 954,LED Light Strip,Electronics,369.41
@@ -960,20 +960,20 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 959,Reading Light,Books,17.99
 960,Desk Lamp,Electronics,109.09
 961,Security Camera,Electronics,618.31
-962,Magazine Holder,Books,76.3
+962,Magazine Holder,Books,76.30
 963,Tie Holder,Clothing,124.19
 964,Wi-Fi Router,Electronics,574.54
 965,USB Hub,Electronics,267.85
-966,Cutting Board,Home & Kitchen,157.2
-967,Tablet Case,Electronics,204.0
+966,Cutting Board,Home & Kitchen,157.20
+967,Tablet Case,Electronics,204.00
 968,Dumbbells,Sports,492.88
 969,Seat Covers,Automotive,758.08
 970,Drawing Tablet,Toys,25.02
 971,Conditioner,Beauty,18.81
-972,Wallet,Clothing,45.0
+972,Wallet,Clothing,45.00
 973,Lipstick,Beauty,185.41
 974,Dress Hanger,Clothing,14.94
-975,Plush Toy,Toys,20.5
+975,Plush Toy,Toys,20.50
 976,Mixing Bowl,Home & Kitchen,44.16
 977,Jewelry Box,Clothing,199.69
 978,Backpack,Clothing,141.77
@@ -983,7 +983,7 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 982,Reading Glasses,Books,93.26
 983,Trash Can,Home & Kitchen,155.95
 984,Puzzle Set,Toys,9.96
-985,Digital Clock,Electronics,324.0
+985,Digital Clock,Electronics,324.00
 986,Shower Curtain,Home & Kitchen,209.09
 987,Rice Cooker,Home & Kitchen,88.22
 988,Umbrella,Clothing,33.46
@@ -993,9 +993,9 @@ PRODUCT_ID,PRODUCT_NAME,CATEGORY,PRICE
 992,Mini Projector,Electronics,166.57
 993,Science Kit,Toys,9.16
 994,Garment Steamer,Clothing,127.95
-995,Gaming Mouse,Electronics,141.7
+995,Gaming Mouse,Electronics,141.70
 996,Monitor,Electronics,543.84
 997,Smart Watch,Electronics,140.22
 998,Socks,Clothing,181.26
-999,Address Book,Books,34.7
+999,Address Book,Books,34.70
 1000,Gloves,Clothing,59.99
